@@ -1,6 +1,7 @@
 var sortNumber = function (number) {
   number.sort(function (a, b) {
       if (a === b) {
+>>>>>>> 459d7bf6f5f2605e40fe8f40c5d3e570a93b18a4
           return 0;
       }
       return a < b ? -1 : 1;
